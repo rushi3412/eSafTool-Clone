@@ -1,0 +1,31 @@
+ <header>
+ <a href="#">
+    <p>eSaf</p>
+ </a>
+ <a>
+ <p class="dropdown"(click)="toggleDropdown()">Role</p>
+    <ul class="dropdown-content" [ngClass]="{'show': isdropdownopen}">
+      <li ngFor="let item of dropdownItems">
+        <a href="#">hello</a>
+        <a href="#">inherited access</a>
+        <a href="#">insted</a>
+        <a href="#">hello2</a>
+      </li>
+    </ul>
+ </a>
+ <a href="#">
+    <p>Bridge</p>
+ </a>
+ <a href="#">
+    <p>Unit</p>
+ </a>
+ <a href="#">
+    <p>User</p>
+ </a>
+ <a href="#">
+    <p>Bulkload</p>
+ </a>
+ <a href="#">
+    <p>Support</p>
+ </a>
+</header>
